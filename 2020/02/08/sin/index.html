@@ -17,15 +17,15 @@
     
     
     <title>Hello Physics World | Hexo</title>
-    <meta name="description" content="Here is a labeled equation: x+1 \over \sqrt{1-x^2} \label{ref1} \tag{1}  This is a reference : \ref{ref1} y &#x3D; y(x,t) &amp;&#x3D; A e^{i\theta} $\ce{CH4 + 2 \left( \ce{O2 + 79&#x2F;21 N2} \right)}$">
+    <meta name="description" content="Here is a labeled equation: x+1 \over \sqrt{1-x^2} \label{ref1} \tag{1} \begin{eqnarray} \nabla\cdot\vec{E} &amp;&#x3D;&amp; \frac{\rho}{\epsilon_0} \\ \nabla\cdot\vec{B} &amp;&#x3D;&amp; 0 \\ \nabla\times\vec{">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello Physics World">
 <meta property="og:url" content="http://example.com/2020/02/08/sin/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Here is a labeled equation: x+1 \over \sqrt{1-x^2} \label{ref1} \tag{1}  This is a reference : \ref{ref1} y &#x3D; y(x,t) &amp;&#x3D; A e^{i\theta} $\ce{CH4 + 2 \left( \ce{O2 + 79&#x2F;21 N2} \right)}$">
+<meta property="og:description" content="Here is a labeled equation: x+1 \over \sqrt{1-x^2} \label{ref1} \tag{1} \begin{eqnarray} \nabla\cdot\vec{E} &amp;&#x3D;&amp; \frac{\rho}{\epsilon_0} \\ \nabla\cdot\vec{B} &amp;&#x3D;&amp; 0 \\ \nabla\times\vec{">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-02-08T07:00:50.000Z">
-<meta property="article:modified_time" content="2021-01-10T08:19:19.300Z">
+<meta property="article:modified_time" content="2021-01-10T08:34:12.052Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="phys">
 <meta name="twitter:card" content="summary">
@@ -55,7 +55,11 @@
         <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
     
     
-<meta name="generator" content="Hexo 5.3.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
 
 
 <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage">
@@ -212,7 +216,7 @@
                             </p>
                             <p class="item-title">
                                 <a href="/2021/01/08/Hello-Physics-World/"
-                                   class="title">Hello Physics World</a>
+                                   class="title">Hello Physics World！</a>
                             </p>
                             <p class="item-date">
                                 <time datetime="2021-01-08T07:00:50.000Z"
@@ -309,8 +313,14 @@
         <div class="article-entry marked-body" itemprop="articleBody">
             
                 <p>Here is a labeled equation:</p>
-<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Undefined control sequence: \label at position 24: …r \sqrt{1-x^2} \̲l̲a̲b̲e̲l̲{ref1} \tag{1}
-'>x+1 \over \sqrt{1-x^2} \label{ref1} \tag{1}
+<p><span class='katex-error' title='ParseError: KaTeX parse error: Undefined control sequence: \label at position 24: …r \sqrt{1-x^2} \̲l̲a̲b̲e̲l̲{ref1} \tag{1}'>x+1 \over \sqrt{1-x^2} \label{ref1} \tag{1}</span></p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: No such environment: eqnarray at position 7: \begin{̲e̲q̲n̲a̲r̲r̲a̲y̲}̲
+\nabla\cdot\ve…'>\begin{eqnarray}
+\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \\
+\nabla\cdot\vec{B} &amp;=&amp; 0 \\
+\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \\
+\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+\end{eqnarray}
 </p>
 <p>This is a reference : <span class='katex-error' title='ParseError: KaTeX parse error: Undefined control sequence: \ref at position 1: \̲r̲e̲f̲{ref1}'>\ref{ref1}</span><br />
 <span class='katex-error' title='ParseError: KaTeX parse error: Expected &#039;EOF&#039;, got &#039;&amp;&#039; at position 12: y = y(x,t) &amp;̲= A e^{i\theta}'>y = y(x,t) &amp;= A e^{i\theta}</span><br />
@@ -378,7 +388,7 @@ $\ce{CH4 + 2 <span class='katex-error' title='ParseError: KaTeX parse error: Und
             <ul class="pager pull-left">
                 
                     <li class="prev">
-                        <a href="/2021/01/08/Hello-Physics-World/" title="Hello Physics World"><i
+                        <a href="/2021/01/08/Hello-Physics-World/" title="Hello Physics World！"><i
                                     class="icon icon-angle-left"
                                     aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
                     </li>
